@@ -21,6 +21,7 @@ class SumSecondLargestAndSmallest {
   }
 
   public static void main(String[] args){
+     System.out.println((char) 65 +  "helo");
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     int[] arr = new int[n];
@@ -29,5 +30,6 @@ class SumSecondLargestAndSmallest {
     }
 
     System.out.println(getSum(arr));
+  
   }
 }
